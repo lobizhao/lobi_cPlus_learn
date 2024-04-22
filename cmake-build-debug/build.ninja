@@ -55,6 +55,12 @@ build CMakeFiles/lobi_cPlus_learn.dir/file_open_read_write_buff.cpp.o: CXX_COMPI
   OBJECT_DIR = CMakeFiles/lobi_cPlus_learn.dir
   OBJECT_FILE_DIR = CMakeFiles/lobi_cPlus_learn.dir
 
+build CMakeFiles/lobi_cPlus_learn.dir/about_dup_dup2.cpp.o: CXX_COMPILER__lobi_cPlus_learn_unscanned_Debug /Users/zhuangzhuang/CLionProjects/lobi_cPlus_learn/about_dup_dup2.cpp || cmake_object_order_depends_target_lobi_cPlus_learn
+  DEP_FILE = CMakeFiles/lobi_cPlus_learn.dir/about_dup_dup2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lobi_cPlus_learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/lobi_cPlus_learn.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lobi_cPlus_learn
@@ -63,7 +69,7 @@ build CMakeFiles/lobi_cPlus_learn.dir/file_open_read_write_buff.cpp.o: CXX_COMPI
 #############################################
 # Link the executable lobi_cPlus_learn
 
-build lobi_cPlus_learn: CXX_EXECUTABLE_LINKER__lobi_cPlus_learn_Debug CMakeFiles/lobi_cPlus_learn.dir/file_open_read_write_buff.cpp.o
+build lobi_cPlus_learn: CXX_EXECUTABLE_LINKER__lobi_cPlus_learn_Debug CMakeFiles/lobi_cPlus_learn.dir/file_open_read_write_buff.cpp.o CMakeFiles/lobi_cPlus_learn.dir/about_dup_dup2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/lobi_cPlus_learn.dir
   POST_BUILD = :
